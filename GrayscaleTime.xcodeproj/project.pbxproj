@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BEE75631BE451C000ADF2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE75621BE451C000ADF2A1 /* main.m */; };
+		8BEE75661BE451C000ADF2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE75651BE451C000ADF2A1 /* AppDelegate.m */; };
+		8BEE75691BE451C000ADF2A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE75681BE451C000ADF2A1 /* ViewController.m */; };
+		8BEE756C1BE451C000ADF2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE756A1BE451C000ADF2A1 /* Main.storyboard */; };
+		8BEE756E1BE451C000ADF2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE756D1BE451C000ADF2A1 /* Assets.xcassets */; };
+		8BEE75711BE451C000ADF2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE756F1BE451C000ADF2A1 /* LaunchScreen.storyboard */; };
+		8BEE757C1BE451C000ADF2A1 /* GrayscaleTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE757B1BE451C000ADF2A1 /* GrayscaleTimeTests.m */; };
+		8BEE75871BE451C000ADF2A1 /* GrayscaleTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE75861BE451C000ADF2A1 /* GrayscaleTimeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BEE75781BE451C000ADF2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEE75561BE451BF00ADF2A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEE755D1BE451C000ADF2A1;
+			remoteInfo = GrayscaleTime;
+		};
+		8BEE75831BE451C000ADF2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEE75561BE451BF00ADF2A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEE755D1BE451C000ADF2A1;
+			remoteInfo = GrayscaleTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BEE755E1BE451C000ADF2A1 /* GrayscaleTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrayscaleTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEE75621BE451C000ADF2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BEE75641BE451C000ADF2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BEE75651BE451C000ADF2A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BEE75671BE451C000ADF2A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BEE75681BE451C000ADF2A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BEE756B1BE451C000ADF2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEE756D1BE451C000ADF2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEE75701BE451C000ADF2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BEE75721BE451C000ADF2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEE75771BE451C000ADF2A1 /* GrayscaleTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrayscaleTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEE757B1BE451C000ADF2A1 /* GrayscaleTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscaleTimeTests.m; sourceTree = "<group>"; };
+		8BEE757D1BE451C000ADF2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEE75821BE451C000ADF2A1 /* GrayscaleTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrayscaleTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEE75861BE451C000ADF2A1 /* GrayscaleTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscaleTimeUITests.m; sourceTree = "<group>"; };
+		8BEE75881BE451C000ADF2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEE755B1BE451C000ADF2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEE75741BE451C000ADF2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEE757F1BE451C000ADF2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEE75551BE451BF00ADF2A1 = {
+			isa = PBXGroup;
+			children = (
+				8BEE75601BE451C000ADF2A1 /* GrayscaleTime */,
+				8BEE757A1BE451C000ADF2A1 /* GrayscaleTimeTests */,
+				8BEE75851BE451C000ADF2A1 /* GrayscaleTimeUITests */,
+				8BEE755F1BE451C000ADF2A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEE755F1BE451C000ADF2A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE755E1BE451C000ADF2A1 /* GrayscaleTime.app */,
+				8BEE75771BE451C000ADF2A1 /* GrayscaleTimeTests.xctest */,
+				8BEE75821BE451C000ADF2A1 /* GrayscaleTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEE75601BE451C000ADF2A1 /* GrayscaleTime */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE75641BE451C000ADF2A1 /* AppDelegate.h */,
+				8BEE75651BE451C000ADF2A1 /* AppDelegate.m */,
+				8BEE75671BE451C000ADF2A1 /* ViewController.h */,
+				8BEE75681BE451C000ADF2A1 /* ViewController.m */,
+				8BEE756A1BE451C000ADF2A1 /* Main.storyboard */,
+				8BEE756D1BE451C000ADF2A1 /* Assets.xcassets */,
+				8BEE756F1BE451C000ADF2A1 /* LaunchScreen.storyboard */,
+				8BEE75721BE451C000ADF2A1 /* Info.plist */,
+				8BEE75611BE451C000ADF2A1 /* Supporting Files */,
+			);
+			path = GrayscaleTime;
+			sourceTree = "<group>";
+		};
+		8BEE75611BE451C000ADF2A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE75621BE451C000ADF2A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BEE757A1BE451C000ADF2A1 /* GrayscaleTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE757B1BE451C000ADF2A1 /* GrayscaleTimeTests.m */,
+				8BEE757D1BE451C000ADF2A1 /* Info.plist */,
+			);
+			path = GrayscaleTimeTests;
+			sourceTree = "<group>";
+		};
+		8BEE75851BE451C000ADF2A1 /* GrayscaleTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE75861BE451C000ADF2A1 /* GrayscaleTimeUITests.m */,
+				8BEE75881BE451C000ADF2A1 /* Info.plist */,
+			);
+			path = GrayscaleTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEE755D1BE451C000ADF2A1 /* GrayscaleTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEE758B1BE451C000ADF2A1 /* Build configuration list for PBXNativeTarget "GrayscaleTime" */;
+			buildPhases = (
+				8BEE755A1BE451C000ADF2A1 /* Sources */,
+				8BEE755B1BE451C000ADF2A1 /* Frameworks */,
+				8BEE755C1BE451C000ADF2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrayscaleTime;
+			productName = GrayscaleTime;
+			productReference = 8BEE755E1BE451C000ADF2A1 /* GrayscaleTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BEE75761BE451C000ADF2A1 /* GrayscaleTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEE758E1BE451C000ADF2A1 /* Build configuration list for PBXNativeTarget "GrayscaleTimeTests" */;
+			buildPhases = (
+				8BEE75731BE451C000ADF2A1 /* Sources */,
+				8BEE75741BE451C000ADF2A1 /* Frameworks */,
+				8BEE75751BE451C000ADF2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEE75791BE451C000ADF2A1 /* PBXTargetDependency */,
+			);
+			name = GrayscaleTimeTests;
+			productName = GrayscaleTimeTests;
+			productReference = 8BEE75771BE451C000ADF2A1 /* GrayscaleTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BEE75811BE451C000ADF2A1 /* GrayscaleTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEE75911BE451C000ADF2A1 /* Build configuration list for PBXNativeTarget "GrayscaleTimeUITests" */;
+			buildPhases = (
+				8BEE757E1BE451C000ADF2A1 /* Sources */,
+				8BEE757F1BE451C000ADF2A1 /* Frameworks */,
+				8BEE75801BE451C000ADF2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEE75841BE451C000ADF2A1 /* PBXTargetDependency */,
+			);
+			name = GrayscaleTimeUITests;
+			productName = GrayscaleTimeUITests;
+			productReference = 8BEE75821BE451C000ADF2A1 /* GrayscaleTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEE75561BE451BF00ADF2A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Thinkpower;
+				TargetAttributes = {
+					8BEE755D1BE451C000ADF2A1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8BEE75761BE451C000ADF2A1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8BEE755D1BE451C000ADF2A1;
+					};
+					8BEE75811BE451C000ADF2A1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8BEE755D1BE451C000ADF2A1;
+					};
+				};
+			};
+			buildConfigurationList = 8BEE75591BE451BF00ADF2A1 /* Build configuration list for PBXProject "GrayscaleTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEE75551BE451BF00ADF2A1;
+			productRefGroup = 8BEE755F1BE451C000ADF2A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEE755D1BE451C000ADF2A1 /* GrayscaleTime */,
+				8BEE75761BE451C000ADF2A1 /* GrayscaleTimeTests */,
+				8BEE75811BE451C000ADF2A1 /* GrayscaleTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEE755C1BE451C000ADF2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEE75711BE451C000ADF2A1 /* LaunchScreen.storyboard in Resources */,
+				8BEE756E1BE451C000ADF2A1 /* Assets.xcassets in Resources */,
+				8BEE756C1BE451C000ADF2A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEE75751BE451C000ADF2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEE75801BE451C000ADF2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEE755A1BE451C000ADF2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEE75691BE451C000ADF2A1 /* ViewController.m in Sources */,
+				8BEE75661BE451C000ADF2A1 /* AppDelegate.m in Sources */,
+				8BEE75631BE451C000ADF2A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEE75731BE451C000ADF2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEE757C1BE451C000ADF2A1 /* GrayscaleTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEE757E1BE451C000ADF2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEE75871BE451C000ADF2A1 /* GrayscaleTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BEE75791BE451C000ADF2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEE755D1BE451C000ADF2A1 /* GrayscaleTime */;
+			targetProxy = 8BEE75781BE451C000ADF2A1 /* PBXContainerItemProxy */;
+		};
+		8BEE75841BE451C000ADF2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEE755D1BE451C000ADF2A1 /* GrayscaleTime */;
+			targetProxy = 8BEE75831BE451C000ADF2A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BEE756A1BE451C000ADF2A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEE756B1BE451C000ADF2A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEE756F1BE451C000ADF2A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEE75701BE451C000ADF2A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEE75891BE451C000ADF2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEE758A1BE451C000ADF2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEE758C1BE451C000ADF2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrayscaleTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkpower.GrayscaleTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BEE758D1BE451C000ADF2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrayscaleTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkpower.GrayscaleTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BEE758F1BE451C000ADF2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrayscaleTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkpower.GrayscaleTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrayscaleTime.app/GrayscaleTime";
+			};
+			name = Debug;
+		};
+		8BEE75901BE451C000ADF2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrayscaleTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkpower.GrayscaleTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrayscaleTime.app/GrayscaleTime";
+			};
+			name = Release;
+		};
+		8BEE75921BE451C000ADF2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrayscaleTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkpower.GrayscaleTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrayscaleTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8BEE75931BE451C000ADF2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrayscaleTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkpower.GrayscaleTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrayscaleTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEE75591BE451BF00ADF2A1 /* Build configuration list for PBXProject "GrayscaleTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEE75891BE451C000ADF2A1 /* Debug */,
+				8BEE758A1BE451C000ADF2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEE758B1BE451C000ADF2A1 /* Build configuration list for PBXNativeTarget "GrayscaleTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEE758C1BE451C000ADF2A1 /* Debug */,
+				8BEE758D1BE451C000ADF2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BEE758E1BE451C000ADF2A1 /* Build configuration list for PBXNativeTarget "GrayscaleTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEE758F1BE451C000ADF2A1 /* Debug */,
+				8BEE75901BE451C000ADF2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BEE75911BE451C000ADF2A1 /* Build configuration list for PBXNativeTarget "GrayscaleTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEE75921BE451C000ADF2A1 /* Debug */,
+				8BEE75931BE451C000ADF2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEE75561BE451BF00ADF2A1 /* Project object */;
+}
