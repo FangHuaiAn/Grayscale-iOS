@@ -15,6 +15,8 @@
 		8BEE75711BE451C000ADF2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE756F1BE451C000ADF2A1 /* LaunchScreen.storyboard */; };
 		8BEE757C1BE451C000ADF2A1 /* GrayscaleTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE757B1BE451C000ADF2A1 /* GrayscaleTimeTests.m */; };
 		8BEE75871BE451C000ADF2A1 /* GrayscaleTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE75861BE451C000ADF2A1 /* GrayscaleTimeUITests.m */; };
+		8BEE75961BE4532B00ADF2A1 /* Lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE75951BE4532B00ADF2A1 /* Lenna.png */; };
+		8BEE75981BE45C0200ADF2A1 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE75971BE45C0200ADF2A1 /* sample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		8BEE75821BE451C000ADF2A1 /* GrayscaleTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrayscaleTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEE75861BE451C000ADF2A1 /* GrayscaleTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscaleTimeUITests.m; sourceTree = "<group>"; };
 		8BEE75881BE451C000ADF2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEE75951BE4532B00ADF2A1 /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lenna.png; path = Images/Lenna.png; sourceTree = "<group>"; };
+		8BEE75971BE45C0200ADF2A1 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = Images/sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		8BEE75611BE451C000ADF2A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BEE75941BE452F200ADF2A1 /* Images */,
 				8BEE75621BE451C000ADF2A1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +143,15 @@
 				8BEE75881BE451C000ADF2A1 /* Info.plist */,
 			);
 			path = GrayscaleTimeUITests;
+			sourceTree = "<group>";
+		};
+		8BEE75941BE452F200ADF2A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE75971BE45C0200ADF2A1 /* sample.png */,
+				8BEE75951BE4532B00ADF2A1 /* Lenna.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +259,9 @@
 			files = (
 				8BEE75711BE451C000ADF2A1 /* LaunchScreen.storyboard in Resources */,
 				8BEE756E1BE451C000ADF2A1 /* Assets.xcassets in Resources */,
+				8BEE75961BE4532B00ADF2A1 /* Lenna.png in Resources */,
 				8BEE756C1BE451C000ADF2A1 /* Main.storyboard in Resources */,
+				8BEE75981BE45C0200ADF2A1 /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
